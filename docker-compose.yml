@@ -13,7 +13,7 @@ services:
       - localbiz-network
 
   backend:
-    build: ./backend
+    build: ./localbiz-replit
     container_name: localbiz-backend
     ports:
       - "3000:3000"
